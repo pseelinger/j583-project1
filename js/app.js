@@ -1,4 +1,4 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ngSanitize']);
 
 app.controller('BaseController', ['$http', function($http) {
 
@@ -69,23 +69,26 @@ app.controller('BaseController', ['$http', function($http) {
     });
     this.candidates = [];
     this.isClicked = false;
+    this.to_trusted = function(html_code) {
+    return $sce.trustAsHtml(html_code);
+};
+    this.raceHtml = "";
+    this.raceCandidates = [];
     this.showRaceClick = function(s){
-      this.candidates = "";
-      this.candidatesText = "<p>"
-      this.isClicked= !this.isClicked;
-      if(this.isClicked){
-        for(var i in this.senators){
-          this.candidatesText = "<p>"
-          if(s === i.state){
-            this.candidates = this.senators.name;
-            this.candidatesText = this.candidatesText  + this.candidates;
-          }
-          this.candidatesText = this.candidatesText + "</p>";
+      this.raceHtml = "";
+      this.raceCandidates = [];
+      this.isClicked = !this.isClicked;
+      for(var j in this.senators){
+        if(this.senators[j].state === s ){
+          this.raceCandidates.push(this.senators[j].name);
+          this.raceHtml += "<h1>" + this.senators[j].name + "</h1>";
         }
-      }
-    return this.candidatesText;
+      };
+      console.log(this.raceCandidates);
+      console.log(this.raceHtml);
+      document.getElementById('race-info').innerHTML = this.raceHtml;
   };
-  this.showCandidates= function(){
-    return this.candidatesText;
-  }
+  //this.showInfo = function(){
+  //  return this.raceHtml;
+  //};
 }]);
