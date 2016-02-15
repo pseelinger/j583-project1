@@ -1,8 +1,7 @@
-var app = angular.module('myApp', ['ngSanitize']);
+var app = angular.module('myApp', []);
 
 app.controller('BaseController', ['$http', function($http) {
 
-    this.message = "Ready";
     this.states= [
     "Alabama",
     "Alaska",
@@ -57,7 +56,7 @@ app.controller('BaseController', ['$http', function($http) {
     ];
     this.senators = [];
     var _this = this;
-
+//get the data from senators.json
     $http.get('/js/senators.json')
     .success(function(data){
       console.log(data);
@@ -69,26 +68,32 @@ app.controller('BaseController', ['$http', function($http) {
     });
     this.candidates = [];
     this.isClicked = false;
-    this.to_trusted = function(html_code) {
-    return $sce.trustAsHtml(html_code);
-};
     this.raceHtml = "";
     this.raceCandidates = [];
-    this.showRaceClick = function(s){
-      this.raceHtml = "";
+    this.currentState = "";
+    //showRaceClick: displays info about each senate race when the user clicks on the appropriate state
+    this.showRaceClick = function(stateClicked){
+      this.raceHtml = "<h1>" + stateClicked + "</h1>";
       this.raceCandidates = [];
-      this.isClicked = !this.isClicked;
+      if (this.currentState == stateClicked){
+        this.isClicked = !this.isClicked;
+      }else{
+        this.isClicked = true;
+        this.currentState = stateClicked;
+      }
       for(var j in this.senators){
-        if(this.senators[j].state === s ){
+        if(this.senators[j].state === stateClicked ){
+          //add senators to an array so we can copnstruct individual divs for them
           this.raceCandidates.push(this.senators[j].name);
-          this.raceHtml += "<h1>" + this.senators[j].name + "</h1>";
+          //construct the divs
+          this.raceHtml += "<div class='col-md-6'><h2>" + this.senators[j].name + "</h2>";
+          this.raceHtml += "<p>" + this.senators[j].party + "</p>";
+          this.raceHtml += "</div>";
         }
       };
       console.log(this.raceCandidates);
       console.log(this.raceHtml);
+      //write the divs to the page
       document.getElementById('race-info').innerHTML = this.raceHtml;
   };
-  //this.showInfo = function(){
-  //  return this.raceHtml;
-  //};
 }]);
