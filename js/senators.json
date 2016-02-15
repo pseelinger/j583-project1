@@ -1,0 +1,1712 @@
+[
+{
+"last": "Shelby",
+"name": "Richard Shelby",
+"state": "Alabama",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Bowman",
+"name": "Marcus Bowman",
+"state": "Alabama",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Martin",
+"name": "John Martin",
+"state": "Alabama",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "McConnell",
+"name": "Johnathan McConnell",
+"state": "Alabama",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "McGill",
+"name": "Shadrack McGill",
+"state": "Alabama",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Crumpton",
+"name": "Ron Crumpton",
+"state": "Alabama",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Nana",
+"name": "Charles Nana",
+"state": "Alabama",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Sessions",
+"name": "Jeff Sessions",
+"state": "Alabama",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Murkowski",
+"name": "Lisa Murkowski",
+"state": "Alaska",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Lamb",
+"name": "Tom Lamb",
+"state": "Alaska",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Palin",
+"name": "Sarah Palin",
+"state": "Alaska",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Perry",
+"name": "Karen Perry",
+"state": "Alaska",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Walden",
+"name": "Bruce Walden",
+"state": "Alaska",
+"party": "Veterans",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Gianoutsos",
+"name": "Ted Gianoutsos",
+"state": "Alaska",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Kendall",
+"name": "Paul Kendall",
+"state": "Alaska",
+"party": "Write-In",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Sullivan",
+"name": "Dan Sullivan",
+"state": "Alaska",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "McCain",
+"name": "John McCain",
+"state": "Arizona",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Meluskey",
+"name": "Alex Meluskey",
+"state": "Arizona",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Pizer",
+"name": "David Pizer",
+"state": "Arizona",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Van Steenwyk",
+"name": "Clair Van Steenwyk",
+"state": "Arizona",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Ward",
+"name": "Kelli Ward",
+"state": "Arizona",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Clark",
+"name": "Lennie Clark",
+"state": "Arizona",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Kirkpatrick",
+"name": "Ann Kirkpatrick",
+"state": "Arizona",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Lopez-Cervantez",
+"name": "Joanne Lopez-Cervantez",
+"state": "Arizona",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Mealer",
+"name": "J.L. Mealer",
+"state": "Arizona",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Quinn",
+"name": "Pat Quinn",
+"state": "Arizona",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Flake",
+"name": "Jeff Flake",
+"state": "Arizona",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Boozman",
+"name": "John Boozman",
+"state": "Arkansas",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Coleman",
+"name": "Curtis Coleman",
+"state": "Arkansas",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Elridge",
+"name": "Conner Elridge",
+"state": "Arkansas",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Gilbert",
+"name": "Frank Gilbert",
+"state": "Arkansas",
+"party": "Libertarian",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Tate",
+"name": "Jason Tate",
+"state": "Arkansas",
+"party": "Write-In",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Cotton",
+"name": "Tim Cotton",
+"state": "Arkansas",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Boxer",
+"name": "Barbara Boxer",
+"state": "California",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Agbede",
+"name": "Akinyemi Agbede",
+"state": "California",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Beitiks",
+"name": "Mikelis Beitkis",
+"state": "California",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Del Beccaro",
+"name": "Tom Del Beccaro",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Estrada",
+"name": "John Estrada",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Gildersleeve",
+"name": "Tim Gildersleeve",
+"state": "California",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Godwin",
+"name": "Mary Elisabeth Godwin",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Greene",
+"name": "Russell Greene",
+"state": "California",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Grey",
+"name": "Clive Grey",
+"state": "California",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Harris",
+"name": "Kamala Harris",
+"state": "California",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "House",
+"name": "Phillip House",
+"state": "California",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Howard",
+"name": "Albert Howard",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Kalemkarian",
+"name": "Tom Kalemkarian",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Lance-Council",
+"name": "Temperance Lance-Council",
+"state": "California",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Larivee",
+"name": "Bob Larivee",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Laws",
+"name": "Jerry Laws",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Lightfoot",
+"name": "Gail Lightfoot",
+"state": "California",
+"party": "Libertarian",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Moharir",
+"name": "M.M. Moharir",
+"state": "California",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Palzer",
+"name": "Tom Palzer",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Pierce",
+"name": "Douglas Pierce",
+"state": "California",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Pybrum",
+"name": "Steven Pybrum",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Ramirez",
+"name": "Al Ramirez",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Sanchez",
+"name": "Loretta Sanchez",
+"state": "California",
+"party": "D",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Sundheim",
+"name": "Duf Sundheim",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Swaim",
+"name": "Jason Swaim",
+"state": "California",
+"party": "I",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Van Raam",
+"name": "Doug Van Raam",
+"state": "California",
+"party": "Free Soil",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Williamson",
+"name": "Jarrell Williamson",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Wyman",
+"name": "Phil Wyman",
+"state": "California",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Feinstein",
+"name": "Dianne Feinstein",
+"state": "California",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Bennet",
+"name": "Michael Bennet",
+"state": "Colorado",
+"party": "D",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Blaha",
+"name": "Robert Blaha",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Caplis",
+"name": "Dan Caplis",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Ehler",
+"name": "Charlie Ehler",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Eller",
+"name": "Jerry Eller",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Frazier",
+"name": "Ryan Frazier",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Glenn",
+"name": "Darryl Glenn",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Graham",
+"name": "Jack Graham",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Janich",
+"name": "Tom Janich",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Keyser",
+"name": "Jon Keyser",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Kinlaw",
+"name": "Michael Kinlaw",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Littleton",
+"name": "Peg Littleton",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Lopez",
+"name": "Greg Lopez",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Natividad",
+"name": "Jerry Natividad",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Neville",
+"name": "Tim Neville",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Rosier",
+"name": "Donald Rosier",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Swing",
+"name": "Gary Swing",
+"state": "Colorado",
+"party": "Boiling Frog",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Menconi",
+"name": "Arn Menconi",
+"state": "Colorado",
+"party": "Green",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Kent",
+"name": "Gaylon Kent",
+"state": "Colorado",
+"party": "Libertarian",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Williams",
+"name": "Lily Williams",
+"state": "Colorado",
+"party": "Libertarian",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Hammons",
+"name": "Bill Hammons",
+"state": "Colorado",
+"party": "Unity",
+"isIncumbent": false,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Gardner",
+"name": "Cory Gardner",
+"state": "Colorado",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Blumenthal",
+"name": "Richard Blumenthal",
+"state": "Connecticuit",
+"party": "D",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Murphy",
+"name": "Chris Murphy",
+"state": "Connecticuit",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Carper",
+"name": "Tom Carper",
+"state": "Delaware",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Coons",
+"name": "Chris Coons",
+"state": "Delaware",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Nelson",
+"name": "Bill Nelson",
+"state": "Florida",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Rubio",
+"name": "Marco Rubio",
+"state": "Florida",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Isakson",
+"name": "Johnny Isakson",
+"state": "Georgia",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Perdue",
+"name": "David Perdue",
+"state": "Georgia",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Schatz",
+"name": "Brian Schatz",
+"state": "Hawaii",
+"party": "D",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Hirono",
+"name": "Mazie Hirono",
+"state": "Hawaii",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Crapo",
+"name": "Mike Crapo",
+"state": "Idaho",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Risch",
+"name": "Jim Risch",
+"state": "Idaho",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Durbin",
+"name": "Dick Durbin",
+"state": "Illinois",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Kirk",
+"name": "Mark Kirk",
+"state": "Illinois",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Coats",
+"name": "Dan Coats",
+"state": "Indiana",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Donnelly",
+"name": "Joe Donnelly",
+"state": "Indiana",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Grassley",
+"name": "Chuck Grassley",
+"state": "Iowa",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Ernst",
+"name": "Joni Ernst",
+"state": "Iowa",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Roberts",
+"name": "Pat Roberts",
+"state": "Kansas",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Moran",
+"name": "Jerry Moran",
+"state": "Kansas",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "McConnell",
+"name": "Mitch McConnell",
+"state": "Kentucky",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Paul",
+"name": "Rand Paul",
+"state": "Kentucky",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Vitter",
+"name": "David Vitter",
+"state": "Louisiana",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Cassidy",
+"name": "Bill Cassidy",
+"state": "Louisiana",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Collins",
+"name": "Susan Collins",
+"state": "Maine",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "King",
+"name": "Angus King",
+"state": "Maine",
+"party": "I",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Mikulski",
+"name": "Barbara Mikulski",
+"state": "Maryland",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Cardin",
+"name": "Ben Cardin",
+"state": "Maryland",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Warren",
+"name": "Elizabeth Warren",
+"state": "Massachusetss",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Markey",
+"name": "Ed Markey",
+"state": "Massachusetss",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Stabenow",
+"name": "Debbie Stabenow",
+"state": "Michigan",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Peters",
+"name": "Gary Peters",
+"state": "Michigan",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Klobuchar",
+"name": "Amy Klobuchar",
+"state": "Minnesota",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Franken",
+"name": "Al Franken",
+"state": "Minnesota",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Cochran",
+"name": "Thad Cochran",
+"state": "Mississippi",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Wicker",
+"name": "Roger Wicker",
+"state": "Mississippi",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "McCaskill",
+"name": "Claire McCaskill",
+"state": "Missouri",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Blunt",
+"name": "Roy Blunt",
+"state": "Missouri",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Tester",
+"name": "Jon Tester",
+"state": "Montana",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Daines",
+"name": "Steve Daines",
+"state": "Montana",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Fischer",
+"name": "Deb Fischer",
+"state": "Nebraska",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Sasse",
+"name": "Ben Sasse",
+"state": "Nebraska",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Reid",
+"name": "Harry Reid",
+"state": "Nevada",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Heller",
+"name": "Dean Heller",
+"state": "Nevada",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Shaheen",
+"name": "Jeanne Shaheen",
+"state": "New Hampshire",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Ayotte",
+"name": "Kelly Ayotte",
+"state": "New Hampshire",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Menendez",
+"name": "Bob Menendez",
+"state": "New Jersey",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Booker",
+"name": "Cory Booker",
+"state": "New Jersey",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Udall",
+"name": "Tom Udall",
+"state": "New Mexico",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Heinrich",
+"name": "Martin Heinrich",
+"state": "Minnesota",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Schumer",
+"name": "Chuck Schumer",
+"state": "New York",
+"party": "D",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Gillibrand",
+"name": "Kirsten Gillibrand",
+"state": "New York",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Burr",
+"name": "Richard Burr",
+"state": "North Carolina",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Tillis",
+"name": "Thom",
+"state": "North Carolina",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Hoeven",
+"name": "John Hoeven",
+"state": "North Dakota",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Heitkamp",
+"name": "Hedi Heitkamp",
+"state": "North Dakota",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Brown",
+"name": "Sherrod Brown",
+"state": "Ohio",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Portman",
+"name": "Rob Portman",
+"state": "Ohio",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Inhofe",
+"name": "Jim Inhofe",
+"state": "Oklahoma",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Lankford",
+"name": "James Lankford",
+"state": "Oklahoma",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Wyden",
+"name": "Ron Wyden",
+"state": "Oregon",
+"party": "D",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Merkley",
+"name": "Jeff Merkley",
+"state": "Oregon",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Casey",
+"name": "Bob Casey, Jr.",
+"state": "Pennsylvania",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Toomey",
+"name": "Pat Toomey",
+"state": "Pennsylvania",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Reed",
+"name": "Jack Reed",
+"state": "Rhode Island",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Whitehouse",
+"name": "Sheldon Whitehouse",
+"state": "Rhode Island",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Graham",
+"name": "Lindsey Graham",
+"state": "South Carolina",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Scott",
+"name": "Tim Scott",
+"state": "South Carolina",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Thune",
+"name": "John Thune",
+"state": "South Dakota",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Rounds",
+"name": "Mike Rounds",
+"state": "South Dakota",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Alexander",
+"name": "Lamar",
+"state": "Tennessee",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Bob",
+"name": "Corker",
+"state": "Tennessee",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Cornyn",
+"name": "John Cornyn",
+"state": "Texas",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Cruz",
+"name": "Ted Cruz",
+"state": "Texas",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Hatch",
+"name": "Orrin Hatch",
+"state": "Utah",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Lee",
+"name": "Mike Lee",
+"state": "Utah",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Leahy",
+"name": "Patrick Leahy",
+"state": "Vermont",
+"party": "D",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Sanders",
+"name": "Bernie Sanders",
+"state": "Vermont",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Warner",
+"name": "Mark Warner",
+"state": "Virginia",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Kaine",
+"name": "Tim Kaine",
+"state": "Virginia",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Murray",
+"name": "Patty Murray",
+"state": "Washington",
+"party": "D",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Manchin",
+"name": "Joe Manchin",
+"state": "West Virgina",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Capito",
+"name": "Shelly Moore Capito",
+"state": "West Virgina",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Johnson",
+"name": "Ron Johnson",
+"state": "Wisconsin",
+"party": "R",
+"isIncumbent": true,
+"isRunning": true,
+"isOpen": true,
+"image": ""
+},
+{
+"last": "Baldwin",
+"name": "Tammy Baldwin",
+"state": "Wisonsin",
+"party": "D",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Enzi",
+"name": "Mike Enzi",
+"state": "Wyoming",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+},
+{
+"last": "Barrasso",
+"name": "John Barrasso",
+"state": "Wyoming",
+"party": "R",
+"isIncumbent": true,
+"isRunning": false,
+"isOpen": false,
+"image": ""
+}
+]
