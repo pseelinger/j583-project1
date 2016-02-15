@@ -28,12 +28,12 @@
 
             <div class="row">
               <div class="col-xs-6">
-                <div class="state-box" ng-click="senateCtrl.showRaceClick()" ng-repeat="state in senateCtrl.states">
+                <div class="state-box" ng-repeat="state in senateCtrl.states" ng-click="senateCtrl.showRaceClick(state)">
                   {{state}}
                 </div>
               </div>
               <div class="col-xs-6"></div>
-                <div id="race-info" ng-show="senateCtrl.isClicked">Poop</div>
+                <div id="race-info" ng-show="senateCtrl.isClicked" ng-bind="senateCtrl.showCandidates()"></div>
             </div>
 
         </div>

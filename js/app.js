@@ -67,8 +67,25 @@ app.controller('BaseController', ['$http', function($http) {
     .error(function(msg){
       console.log("Beep boop, something went wrong: \n" + msg);
     });
+    this.candidates = [];
     this.isClicked = false;
-    this.showRaceClick = function(){
+    this.showRaceClick = function(s){
+      this.candidates = "";
+      this.candidatesText = "<p>"
       this.isClicked= !this.isClicked;
+      if(this.isClicked){
+        for(var i in this.senators){
+          this.candidatesText = "<p>"
+          if(s === i.state){
+            this.candidates = this.senators.name;
+            this.candidatesText = this.candidatesText  + this.candidates;
+          }
+          this.candidatesText = this.candidatesText + "</p>";
+        }
+      }
+    return this.candidatesText;
   };
+  this.showCandidates= function(){
+    return this.candidatesText;
+  }
 }]);
