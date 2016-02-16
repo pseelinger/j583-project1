@@ -68,6 +68,7 @@ app.controller('BaseController', ['$http', function($http) {
     });
     this.candidates = [];
     this.isClicked = false;
+    this.isCandClicked = false;
     this.raceHtml = "";
     this.raceCandidates = [];
     this.currentState = "";
@@ -86,8 +87,8 @@ app.controller('BaseController', ['$http', function($http) {
           //add senators to an array so we can copnstruct individual divs for them
           this.raceCandidates.push(this.senators[j].name);
           //construct the divs
-          this.raceHtml += "<div class='col-md-6'><h2>" + this.senators[j].name + "</h2>";
-          this.raceHtml += "<p>" + this.senators[j].party + "</p>";
+          this.raceHtml += "<div class='col-md-6'><h2>" + this.senators[j].name + "(" + this.senators[j].party + ")" + "</h2>";
+          this.raceHtml +="<div class='cand-info' ng-click='isCandClicked = !isCandClicked' ng-show='isCandClicked'>" + this.senators[j].name+ "</div>"
           this.raceHtml += "</div>";
         }
       };
@@ -96,4 +97,5 @@ app.controller('BaseController', ['$http', function($http) {
       //write the divs to the page
       document.getElementById('race-info').innerHTML = this.raceHtml;
   };
+
 }]);

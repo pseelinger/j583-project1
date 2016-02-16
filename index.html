@@ -25,16 +25,23 @@
     </head>
 
     <body ng-app="myApp">
-        <div class="container" ng-controller="BaseController as senateCtrl">
+        <div class="container-fluid" ng-controller="BaseController as senateCtrl">
         <!--  <div id="map-container"></div> -->
-
+<div class='row'>
+  <div class="col-xs-12">
+  <div id="menu-box">
+    <h1>Senate Election 2016</h1>
+    <input type="text" name="search" ng-model="inputQuery"></input>
+  </div>
+</div>
+</div>
             <div class="row">
-              <div class="col-xs-6">
-                <div class="state-box" ng-repeat="state in senateCtrl.states" ng-click="senateCtrl.showRaceClick(state)">
-                  {{state}}
+              <div class="col-xs-12 col-md-6">
+                <div class="state-box" ng-repeat="state in senateCtrl.states | filter: inputQuery" ng-click="senateCtrl.showRaceClick(state)">
+                  <a href=#>{{state}}</a>
                 </div>
               </div>
-              <div class="col-xs-6"></div>
+              <div class="col-xs-12 col-md-6"></div>
                 <div id="race-info" ng-show="senateCtrl.isClicked"></div>
             </div>
 
