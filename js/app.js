@@ -68,13 +68,13 @@ app.controller('BaseController', ['$http', function($http) {
     });
     this.candidates = [];
     this.isClicked = false;
-    this.isCandClicked = false;
     this.raceHtml = "";
+    this.candInfo = "<div class='tab-content'>";
     this.raceCandidates = [];
     this.currentState = "";
     //showRaceClick: displays info about each senate race when the user clicks on the appropriate state
     this.showRaceClick = function(stateClicked){
-      this.raceHtml = "<h1>" + stateClicked + "</h1>";
+      this.raceHtml = "<div class='col-md-6'><h1>" + stateClicked + "</h1><ul class='nav nav-pills nav-stacked' id='cand-info-tabs'>";
       this.raceCandidates = [];
       if (this.currentState == stateClicked){
         this.isClicked = !this.isClicked;
@@ -87,15 +87,25 @@ app.controller('BaseController', ['$http', function($http) {
           //add senators to an array so we can copnstruct individual divs for them
           this.raceCandidates.push(this.senators[j].name);
           //construct the divs
-          this.raceHtml += "<div class='col-md-6'><h2>" + this.senators[j].name + "(" + this.senators[j].party + ")" + "</h2>";
-          this.raceHtml +="<div class='cand-info' ng-click='isCandClicked = !isCandClicked' ng-show='isCandClicked'>" + this.senators[j].name+ "</div>"
-          this.raceHtml += "</div>";
+          this.raceHtml += "<li><a data-toggle='pill' href='#" + this.senators[j].last + "'>" + this.senators[j].name + "</a></li>";
         }
       };
-      console.log(this.raceCandidates);
-      console.log(this.raceHtml);
+      this.raceHtml += "</ul></div>";
+      this.raceCandidates = [];
+      for(var j in this.senators){
+        if(this.senators[j].state === stateClicked ){
+          //add senators to an array so we can copnstruct individual divs for them
+          this.raceCandidates.push(this.senators[j].name);
+          //construct the divs
+          this.candInfo += "<div id='" + this.senators[j].last + "' class='tab-pane'><h3>" + this.senators[j].name + "</h3></div>";
+        }
+      };
       //write the divs to the page
       document.getElementById('race-info').innerHTML = this.raceHtml;
+      this.candInfo += "</div>";
+      console.log(this.candInfo);
+      $('#cand-info-tabs li:first-child').addClass('active');
+      document.getElementById('cand-info').innerHTML = this.candInfo;
   };
-
+//end showRaceClick
 }]);
