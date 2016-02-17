@@ -842,7 +842,7 @@
 {
 "last": "Blumenthal",
 "name": "Richard Blumenthal",
-"state": "Connecticuit",
+"state": "Connecticut",
 "party": "D",
 "isIncumbent": true,
 "isRunning": true,
@@ -852,7 +852,7 @@
 {
 "last": "Murphy",
 "name": "Chris Murphy",
-"state": "Connecticuit",
+"state": "Connecticut",
 "party": "D",
 "isIncumbent": true,
 "isRunning": false,
@@ -1122,7 +1122,7 @@
 {
 "last": "Warren",
 "name": "Elizabeth Warren",
-"state": "Massachusetss",
+"state": "Massachusetts",
 "party": "D",
 "isIncumbent": true,
 "isRunning": false,
@@ -1132,7 +1132,7 @@
 {
 "last": "Markey",
 "name": "Ed Markey",
-"state": "Massachusetss",
+"state": "Massachusetts",
 "party": "D",
 "isIncumbent": true,
 "isRunning": false,
@@ -1332,7 +1332,7 @@
 {
 "last": "Heinrich",
 "name": "Martin Heinrich",
-"state": "Minnesota",
+"state": "New Mexico",
 "party": "D",
 "isIncumbent": true,
 "isRunning": false,
@@ -1371,7 +1371,7 @@
 },
 {
 "last": "Tillis",
-"name": "Thom",
+"name": "Thom Tillis",
 "state": "North Carolina",
 "party": "R",
 "isIncumbent": true,
@@ -1541,7 +1541,7 @@
 },
 {
 "last": "Alexander",
-"name": "Lamar",
+"name": "Lamar Alexander",
 "state": "Tennessee",
 "party": "R",
 "isIncumbent": true,
@@ -1550,8 +1550,8 @@
 "image": ""
 },
 {
-"last": "Bob",
-"name": "Corker",
+"last": "Corker",
+"name": "Bob Corker",
 "state": "Tennessee",
 "party": "R",
 "isIncumbent": true,
@@ -1652,7 +1652,7 @@
 {
 "last": "Manchin",
 "name": "Joe Manchin",
-"state": "West Virgina",
+"state": "West Virginia",
 "party": "D",
 "isIncumbent": true,
 "isRunning": false,
@@ -1662,7 +1662,7 @@
 {
 "last": "Capito",
 "name": "Shelly Moore Capito",
-"state": "West Virgina",
+"state": "West Virginia",
 "party": "R",
 "isIncumbent": true,
 "isRunning": false,
@@ -1682,7 +1682,7 @@
 {
 "last": "Baldwin",
 "name": "Tammy Baldwin",
-"state": "Wisonsin",
+"state": "Wisconsin",
 "party": "D",
 "isIncumbent": true,
 "isRunning": false,
