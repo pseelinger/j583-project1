@@ -87,19 +87,26 @@ app.controller('BaseController', ['$http', function($http) {
           //add senators to an array so we can copnstruct individual divs for them
           this.raceCandidates.push(this.senators[j].name);
           //construct the divs
-          this.raceHtml += "<li><a data-toggle='pill' href='#" + this.senators[j].last + "'>" + this.senators[j].name  + " (" + this.senators[j].party + ")" + "</a></li>";
+          this.raceHtml += "<li><a data-toggle='pill' href='#" + this.senators[j].last + "'>" + this.senators[j].name;
+          if(this.senators[j].isIncumbent == true){
+            this.raceHtml += " (Incumbent) ";
+          }
+          this.raceHtml += " (" + this.senators[j].party + ")" + "</a></li>";
         }
       };
       this.raceHtml += "</ul>";
-      this.raceCandidates = [];
       for(var j in this.senators){
         if(this.senators[j].state === stateClicked ){
-          //add senators to an array so we can copnstruct individual divs for them
-          this.raceCandidates.push(this.senators[j].name);
           //construct the divs
           this.candInfo += "<div id='" + this.senators[j].last + "' class='tab-pane'><h3>" + this.senators[j].name ;
-          this.candInfo += " (" + this.senators[j].party + ")";
-          this.candInfo += "</h3></div>";
+          if(this.senators[j].isIncumbent == true){
+            this.candInfo += " (Incumbent) ";
+          }
+          this.candInfo += " (" + this.senators[j].party + ")</h3>";
+          if(this.senators[j].isOpen == false){
+            this.candInfo += "<p>Seat not open in 2016</p>";
+          }
+          this.candInfo +="</div>";
         }
       };
       //write the divs to the page
