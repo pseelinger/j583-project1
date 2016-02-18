@@ -8,6 +8,10 @@ input{
   color: black;
   margin-right: 5px;
 }
+table{
+  max-height: 100px;
+  overflow: scroll;
+}
 #map-container {
     height: 500px;
     min-width: 310px;
@@ -51,4 +55,7 @@ input{
   color: white;
   text-decoration: underline;
   vertical-align: middle;
+}
+.invisible{
+  display: none;
 }

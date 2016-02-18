@@ -44,7 +44,6 @@ app.directive('tabset', function() {
 }
 });
 app.controller('BaseController', ['$http', function($http) {
-
     this.states= [
     "Alabama",
     "Alaska",
@@ -160,4 +159,17 @@ app.controller('BaseController', ['$http', function($http) {
       document.getElementById('cand-info').innerHTML = this.candInfo;
   };
 //end showRaceClick
+this.showCandInfo = function(cand){
+  this.candInfo = "";
+  this.candInfo += "<h3>" + cand.name ;
+  if(cand.isIncumbent == true){
+    this.candInfo += " (Incumbent) ";
+  }
+  this.candInfo += " (" + cand.party + ")</h3>";
+  if(cand.isOpen == false){
+    this.candInfo += "<p>Seat not open in 2016</p>";
+  }
+  document.getElementById('candidateInfoBox').innerHTML = this.candInfo;
+}
+//endShowCandInfo
 }]);

@@ -30,11 +30,17 @@
 
             <div class="row">
               <tabset>
+                <tab heading="Welcome">
+                  <div class="col-md-12">
+                    <h1>Welcome!</h1>
+                    <p>Here you can learn more about everyone running in the 2016 U.S. Senate Elections. Click on one of the tabs to get started.</p>
+                  </div>
+                </tab>
               <tab heading="Sort by State">
 
               <div class="col-xs-12 col-md-6">
 
-                <div class="state-box" ng-repeat="state in senateCtrl.states | filter: inputQuery" ng-click="senateCtrl.showRaceClick(state)">
+                <div class="state-box" ng-repeat="state in senateCtrl.states | filter: inputQuery" ng-click="senateCtrl.showRaceClick(state);">
                   <a href=#>{{state}}</a>
                 </div>
               </div>
@@ -52,8 +58,25 @@
               </div>
               </div>
             </tab>
-            <tab heading="Poop">
-poopy
+            <tab heading="Sort by Name">
+                <div class="col-xs-12 col-md-6">
+                  <input ng-model="searchCands" name="candSearch" type="text"></input>
+                  <table class="table-striped table-hover">
+                  <tr>
+                    <th>Name</th>
+                    <th>Party</th>
+                    <th>State</th>
+                  </tr>
+                  <tr ng-repeat="candidate in senateCtrl.senators | filter: searchCands | orderBy: headerClicked" ng-click="senateCtrl.showCandInfo(candidate)">
+                    <td>{{candidate.name}}</td>
+                    <td>{{candidate.party}}</td>
+                    <td>{{candidate.state}}</td>
+                  </tr>
+                  </table>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div id="candidateInfoBox"></div>
+                </div>
             </tab>
           </tabset>
             </div>
