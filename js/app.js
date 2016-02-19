@@ -46,56 +46,56 @@ app.directive('tabset', function() {
 });
 app.controller('BaseController', ['$http', function($http) {
     this.states= [
-    "Alabama",
-    "Alaska",
-    "Arizona",
-    "Arkansas",
-    "California",
-    "Colorado",
-    "Connecticut",
-    "Delaware",
-    "Florida",
-    "Georgia",
-    "Hawaii",
-    "Idaho",
-    "Illinois",
-    "Indiana",
-    "Iowa",
-    "Kansas",
-    "Kentucky",
-    "Louisiana",
-    "Maine",
-    "Maryland",
-    "Massachusetts",
-    "Michigan",
-    "Minnesota",
-    "Mississippi",
-    "Missouri",
-    "Montana",
-    "Nebraska",
-    "Nevada",
-    "New Hampshire",
-    "New Jersey",
-    "New Mexico",
-    "New York",
-    "North Carolina",
-    "North Dakota",
-    "Ohio",
-    "Oklahoma",
-    "Oregon",
-    "Pennsylvania",
-    "Rhode Island",
-    "South Carolina",
-    "South Dakota",
-    "Tennessee",
-    "Texas",
-    "Utah",
-    "Vermont",
-    "Virginia",
-    "Washington",
-    "West Virginia",
-    "Wisconsin",
-    "Wyoming"
+    ["Alabama", "alabama"],
+    ["Alaska", "alaska"],
+    ["Arizona", "arizona"],
+    ["Arkansas", "Arkansas"],
+    ["California", "california"],
+    ["Colorado", "colorado"],
+    ["Connecticut", "connecticut"],
+    ["Delaware", "delaware"],
+    ["Florida", "florida"],
+    ["Georgia", "georgia"],
+    ["Hawaii", "hawaii"],
+    ["Idaho", "idaho"],
+    ["Illinois", "illinois"],
+    ["Indiana", "indiana"],
+    ["Iowa", "iowa"],
+    ["Kansas", "kansas"],
+    ["Kentucky", "kentucky"],
+    ["Louisiana", "louisiana"],
+    ["Maine", "maine"],
+    ["Maryland", "maryland"],
+    ["Massachusetts", "massachusetts"],
+    ["Michigan", "michigan"],
+    ["Minnesota", "minnesota"],
+    ["Mississippi", "mississippi"],
+    ["Missouri", "missouri"],
+    ["Montana", "montana"],
+    ["Nebraska", "nebraska"],
+    ["Nevada", "nevada"],
+    ["New Hampshire", "new-hampshire"],
+    ["New Jersey", "new-jersey"],
+    ["New Mexico", "new-mexico"],
+    ["New York", "new-york"],
+    ["North Carolina", "north-carolina"],
+    ["North Dakota", "north-dakota"],
+    ["Ohio", "ohio"],
+    ["Oklahoma", "oklahoma"],
+    ["Oregon", "oregon"],
+    ["Pennsylvania", "pennsylvania"],
+    ["Rhode Island", "rhode-island"],
+    ["South Carolina", "south-carolina"],
+    ["South Dakota", "south-dakota"],
+    ["Tennessee", "tennessee"],
+    ["Texas", "texas"],
+    ["Utah","utah"],
+    ["Vermont", "vermont"],
+    ["Virginia", "virginia"],
+    ["Washington", "washington"],
+    ["West Virginia", "west-virginia"],
+    ["Wisconsin","wisconsin"],
+    ["Wyoming", "wyoming"]
     ];
     this.partyClicked = "";
     this.senators = [];
@@ -160,17 +160,17 @@ app.controller('BaseController', ['$http', function($http) {
           this.candInfo += " (" + this.senators[j].party + ")</h3>";
           this.candInfo += "<img src='" + this.senators[j].image + "'>"
           if(!this.senators[j].isOpen){
-            this.candInfo += "<p>Seat not open in 2016</p>";
+            this.candInfo += "<p class='filler-text'>Seat not open in 2016</p>";
           }
           if(this.senators[j].isOpen && !this.senators[j].isRunning){
-            this.candInfo += "<p>Retiring in 2016</p>";
+            this.candInfo += "<p class='filler-text'>Retiring in 2016</p>";
           }
           if(this.senators[j].bio !== undefined){
             this.candInfo += "<p>" +  this.senators[j].bio + "</p>";
             this.candInfo += "<h4>Platform Points:</h4>";
             this.candInfo += "<ul><li>" + this.senators[j].point1 + "</li>" + "<li>" + this.senators[j].point2 + "</li>" + "<li>" + this.senators[j].point3 + "</li></ul>";
           }else if(this.senators[j].isRunning){
-            this.candInfo += "<p>Running for senate in " + this.senators[j].state + " in 2016</p>"
+            this.candInfo += "<p class='filler-text'>Running for senate in " + this.senators[j].state + " in 2016</p>"
           }
           this.candInfo +="</div>";
         }
@@ -193,7 +193,7 @@ this.showCandInfo = function(cand){
   }
   this.candInfo += " (" + cand.party + ")</h3>";
   if(!cand.isOpen){
-    this.candInfo += "<h4>Seat not open in 2016</h4>";
+    this.candInfo += "<h4 class='filler-text'>Seat not open in 2016</h4>";
   }
   if(cand.isOpen && cand.isRunning){
     this.candInfo += "<img src='" + cand.image + "'>"
@@ -202,7 +202,7 @@ this.showCandInfo = function(cand){
       this.candInfo += "<h4>Platform Points:</h4>";
       this.candInfo += "<ul><li>" + cand.point1 + "</li>" + "<li>" + cand.point2 + "</li>" + "<li>" + cand.point3 + "</li></ul>";
     }else if(cand.isRunning){
-      this.candInfo += "<p>Running for senate in " + cand.state + " in 2016</p>"
+      this.candInfo += "<p class='filler-text'>Running for senate in " + cand.state + " in 2016</p>"
     }
     this.candInfo += "<h4>Running against:</h4>"
     for(j in this.senators){

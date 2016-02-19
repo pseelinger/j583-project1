@@ -25,20 +25,23 @@
     <div class="col-md-12" id="welcome">
       <h1>Senate Election 2016</h1>
     </div>
+    <div>
+      <p>Here you can learn about who is running in the 2016 U.S. Senate Elections. Click on a state or a way to sort candidates to get started.</p>
+    </div>
             <div class="row">
               <div class="container-fluid">
               <tabset>
-                <tab heading="Welcome">
+                <tab heading="Races by State">
               <div class="col-xs-12 col-md-6">
                 <div class="states-key">
-                  <p>Green = Open Seat</p>
-                  <p>Red = Republican-held state</p>
-                  <p>Blue = Democrat-held state</p>
-                  <p>Purple = Mixed state</p>
+                  <p class="green">Green = Open Seat</p>
+                  <p class="red">Red = Republican-held state</p>
+                  <p class="blue">Blue = Democrat-held state</p>
+                  <p class="purple">Purple = Mixed state</p>
                   <input type="text" name="search" ng-model="inputQuery" placeholder="Search by state"></input>
                 </div>
-                <div class="state-box" ng-repeat="state in senateCtrl.states | filter: inputQuery" ng-click="senateCtrl.showRaceClick(state)" id={{state}}>
-                  <a href=#>{{state}}</a>
+                <div class="state-box" ng-repeat="state in senateCtrl.states | filter: inputQuery" ng-click="senateCtrl.showRaceClick(state[0])" id={{state[1]}}>
+                  <a>{{state[0]}}</a>
                 </div>
               </div>
               <div class="col-xs-12 col-md-6">
