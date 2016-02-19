@@ -21,7 +21,7 @@ input{
   margin-right: 5px;
 }
 td{
-  padding: 5px;
+  padding: 10px;
 }
 p, a, table, h4, li, h2, h3{
   font-size: 1.5em;
@@ -77,19 +77,37 @@ img{
 #alabama, #alaska, #arizona, #Arkansas, #california, #colorado, #connecticut, #florida, #georgia, #hawaii, #idaho, #illinois, #indiana, #iowa, #kansas, #kentucky, #louisiana, #maryland, #missouri, #nevada, #new-hampshire, #new-york, #north-carolina, #south-carolina, #north-dakota, #south-dakota, #ohio, #oklahoma, #oregon, #pennsylvania, #utah, #vermont, #washington, #wisconsin{
   background-color: #5b965b;
 }
+#alabama:hover, #alaska:hover, #arizona:hover, #Arkansas:hover, #california:hover, #colorado:hover, #connecticut:hover, #florida:hover, #georgia:hover, #hawaii:hover, #idaho:hover, #illinois:hover, #indiana:hover, #iowa:hover, #kansas:hover, #kentucky:hover, #louisiana:hover, #maryland:hover, #missouri:hover, #nevada:hover, #new-hampshire:hover, #new-york:hover, #north-carolina:hover, #south-carolina:hover, #north-dakota, #south-dakota:hover, #ohio:hover, #oklahoma:hover, #oregon:hover, #pennsylvania:hover, #utah:hover, #vermont:hover, #washington:hover, #wisconsin:hover{
+  background-color: #006400;
+}
 #delaware, #massachusetts, #michigan, #minnesota, #new-jersey, #new-mexico, #rhode-island, #virginia{
   background-color: #8aacb8;
+}
+#delaware:hover, #massachusetts:hover, #michigan:hover, #minnesota:hover, #new-jersey:hover, #new-mexico:hover, #rhode-island:hover, #virginia:hover{
+background-color: #000080;
 }
 #mississippi, #nebraska, #tennessee, #texas, #wyoming{
 background-color: #b20000;
 }
+#mississippi:hover, #nebraska:hover, #tennessee:hover, #texas:hover, #wyoming:hover{
+  background-color: #660000;
+}
 #maine, #montana, #west-virginia{
   background-color: #551A8B;
+}
+#maine:hover, #montana:hover, #west-virginia:hover{
+  background-color: #800080;
 }
 .loading {
     margin-top: 10em;
     text-align: center;
     color: gray;
+}
+.nav a{
+  font-size: 1.25em;
+}
+.dropdown-menu a{
+  font-size: 1.1em;
 }
 .state-box{
   display: inline-block;
@@ -102,8 +120,8 @@ background-color: #b20000;
   white-space: normal;
   float: none;
   margin: 20px;
-  -webkit-transition: box-shadow 1s;
-  vertical-align: middle;;
+  -webkit-transition: box-shadow 1s, background-color 1s;
+  vertical-align: middle;
 }
 .state-box:hover, .no-shadow{
   box-shadow: none;
@@ -115,8 +133,12 @@ background-color: #b20000;
 }
 .not-open{
   color: red;
-}.filler-text{
+}
+.filler-text{
   font-style: italic;
+}
+.states-key{
+  padding-top: 20px;
 }
 .states-key p{
   text-align: left !important;
