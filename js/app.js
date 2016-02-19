@@ -1,4 +1,5 @@
 var app = angular.module('myApp', []);
+//The following two directives allow for the main tab functionality of the page(Welcome, Sort by state, sort by name)
 app.directive('tab', function() {
   return {
     restrict: 'E',
@@ -96,6 +97,7 @@ app.controller('BaseController', ['$http', function($http) {
     "Wisconsin",
     "Wyoming"
     ];
+    this.partyClicked = "";
     this.senators = [];
     var _this = this;
 //get the data from senators.json
@@ -108,15 +110,19 @@ app.controller('BaseController', ['$http', function($http) {
     .error(function(msg){
       console.log("Beep boop, something went wrong: \n" + msg);
     });
+    // declare some variables we'll need later
     this.candidates = [];
     this.isClicked = false;
     this.raceHtml = "";
     this.candInfo = "";
     this.raceCandidates = [];
     this.currentState = "";
-    //showRaceClick: displays info about each senate race when the user clicks on the appropriate state
+//showRaceClick - displays info about each senate race when the user clicks on the appropriate state
     this.showRaceClick = function(stateClicked){
-      this.raceHtml = "<h1>" + stateClicked + "</h1><ul class='nav nav-pills nav-stacked' id='cand-info-tabs'>";
+      //Clear the variable first or else info from the other tab may get written to this section.
+      this.candInfo = "";
+      // Using bootstrap tabs here because angular can't act on html written to the page once it's loaded
+      this.raceHtml = "<h2>" + stateClicked + "</h2><p>Senators in <span style='color: red'>red</span> are not running this year.</p><ul class='nav nav-pills nav-stacked' id='cand-info-tabs'>";
       this.raceCandidates = [];
       if (this.currentState == stateClicked){
         this.isClicked = !this.isClicked;
@@ -124,29 +130,39 @@ app.controller('BaseController', ['$http', function($http) {
         this.isClicked = true;
         this.currentState = stateClicked;
       }
+      //Divs for the 'sub-menus' where the user can select a candidate
       for(var j in this.senators){
         if(this.senators[j].state === stateClicked ){
-          //add senators to an array so we can copnstruct individual divs for them
+          //add senators to an array so we can construct individual divs for them
           this.raceCandidates.push(this.senators[j].name);
           //construct the divs
-          this.raceHtml += "<li><a data-toggle='pill' href='#" + this.senators[j].last + "'>" + this.senators[j].name;
-          if(this.senators[j].isIncumbent == true){
+          this.raceHtml += "<li><a data-toggle='pill' href='#" + this.senators[j].last + "'";
+          if(!this.senators[j].isOpen || this.senators[j].isOpen && !this.senators[j].isRunning){
+            this.raceHtml += "class='not-open'";
+          }
+          this.raceHtml+= ">" + this.senators[j].name;
+          if(this.senators[j].isIncumbent){
             this.raceHtml += " (Incumbent) ";
           }
           this.raceHtml += " (" + this.senators[j].party + ")" + "</a></li>";
         }
       };
       this.raceHtml += "</ul>";
+      //Divs for info on the candidate the user selects
       for(var j in this.senators){
         if(this.senators[j].state === stateClicked ){
           //construct the divs
-          this.candInfo += "<div id='" + this.senators[j].last + "' class='tab-pane'><h3>" + this.senators[j].name ;
-          if(this.senators[j].isIncumbent == true){
+          this.candInfo += "<div id='" + this.senators[j].last + "' class='tab-pane'>";
+          this.candInfo+= "'<h3>" + this.senators[j].name ;
+          if(this.senators[j].isIncumbent){
             this.candInfo += " (Incumbent) ";
           }
           this.candInfo += " (" + this.senators[j].party + ")</h3>";
-          if(this.senators[j].isOpen == false){
+          if(!this.senators[j].isOpen){
             this.candInfo += "<p>Seat not open in 2016</p>";
+          }
+          if(this.senators[j].isOpen && !this.senators[j].isRunning){
+            this.candInfo += "<p>Retiring in 2016</p>";
           }
           this.candInfo +="</div>";
         }
@@ -157,17 +173,27 @@ app.controller('BaseController', ['$http', function($http) {
       console.log(this.candInfo);
       $('#cand-info-tabs li:first-child').addClass('active');
       document.getElementById('cand-info').innerHTML = this.candInfo;
+      $('#cand-info div:first-child').addClass('active');
   };
 //end showRaceClick
+//showCandInfo - Used for displaying information on candidates in the "Sort by name" section
 this.showCandInfo = function(cand){
   this.candInfo = "";
   this.candInfo += "<h3>" + cand.name ;
-  if(cand.isIncumbent == true){
+  if(cand.isIncumbent){
     this.candInfo += " (Incumbent) ";
   }
   this.candInfo += " (" + cand.party + ")</h3>";
-  if(cand.isOpen == false){
-    this.candInfo += "<p>Seat not open in 2016</p>";
+  if(!cand.isOpen){
+    this.candInfo += "<h4>Seat not open in 2016</h4>";
+  }
+  if(cand.isOpen && cand.isRunning){
+    this.candInfo += "<h4>Running against:</h4>"
+    for(j in this.senators){
+      if(cand.state == this.senators[j].state){
+        this.candInfo += "<p>" + this.senators[j].name + "</p>";
+      }
+    }
   }
   document.getElementById('candidateInfoBox').innerHTML = this.candInfo;
 }

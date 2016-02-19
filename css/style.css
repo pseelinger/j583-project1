@@ -1,15 +1,31 @@
+@font-face {
+  font-family: Neon;
+  src: url(../fonts/neon.ttf)
+}
 body{
   background-color: #eeeeee;
 }
 input{
-  float: right;
   margin-top: 20px;
   padding: none;
   color: black;
   margin-right: 5px;
 }
-table{
-  max-height: 100px;
+td{
+  padding: 5px;
+}
+p{
+  font-size: 2em;
+}
+#welcome-tab h1, #welcome-tab p{
+  text-align: center;
+}
+#welcome-tab h1{
+  font-family: Neon;
+  font-size: 4em;
+}
+#table-div{
+  max-height: 300px;
   overflow: scroll;
 }
 #map-container {
@@ -19,7 +35,7 @@ table{
     margin: 0 auto;
 }
 #menu-box{
-  background-color: #f90505;
+  background-color: #b20000;
   color: white;
   border-bottom: 1px solid blue;
   width: inherit;
@@ -33,7 +49,18 @@ table{
 #race-info h2{
   display: inline-block;
 }
-
+#Alabama, #Alaska, #Arizona, #Arkansas, #California, #Colorado, #Connecticut, #Florida, #Georgia, #Hawaii, #Idaho, #Illinois, #Indiana, #Iowa, #Kansas, #Kentucky, #Louisiana, #Maryland, #Missouri, #Hampshire, #York, #Carolina, #Dakota, #Ohio, #Oklahoma, #Oregon, #Pennsylvania, #Utah, #Vermont, #Washington, #Wisconsin{
+  background-color: #5b965b;
+}
+#Delaware, #Massachusetts, #Michigan, #Minnesota, #Jersey, #New Mexico, #Rhode, #Virginia{
+  background-color: #8aacb8;
+}
+#Mississippi, #Nebraska, #Tennessee,  #South #Dakota, #Texas, #Wyoming{
+background-color: #b20000;
+}
+#Maine, #Montana, #Nevada, #West{
+  background-color: purple;
+}
 .loading {
     margin-top: 10em;
     text-align: center;
@@ -58,4 +85,10 @@ table{
 }
 .invisible{
   display: none;
+}
+.not-open{
+  color: red;
+}
+.states-key p{
+  text-align: left !important;
 }
