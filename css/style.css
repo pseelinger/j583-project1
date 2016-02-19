@@ -15,15 +15,19 @@ td{
   padding: 5px;
 }
 p{
-  font-size: 2em;
+  font-size: 1em;
 }
-#welcome-tab h1, #welcome-tab p{
+img{
+  width: 100%;
+  height: 10%;
+}
+#welcome{
   text-align: center;
-}
-#welcome-tab h1{
   font-family: Neon;
-  font-size: 4em;
+  color: white;
+  background-color: #5b965b;
 }
+#welcome
 #table-div{
   max-height: 300px;
   overflow: scroll;

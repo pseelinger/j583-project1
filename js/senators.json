@@ -7,7 +7,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/richard_shelby.jpg",
+"bio": "Senator Richard Shelby was first elected to the Senate in 1986. He is the Chairman of the Banking, Housing, and Urban Affairs Committee. He also serves on the Senate Appropriations Committee and the Committee on Rules and Administration.Prior to his election in the United States Senate, Senator Shelby served four terms in the U.S. House of Representatives and eight years in the Alabama legislature. He is a fifth generation Alabamian and a graduate of University of Alabama’s undergraduate and law programs.",
+"point1": "Flat tax",
+"point2": "Balanced Budget Amendment",
+"point3": "2nd Amendment rights"
 },
 {
 "last": "Bowman",
@@ -87,7 +91,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/lisa_murkowski.jpg",
+"bio":"Senator Lisa Murkowski is the first Alaskan-born Senator and only the sixth United States Senator to serve the state. The state’s senior Senator, Lisa Murkowski is a third-generation Alaskan, born in Ketchikan and raised in towns across the state: Wrangell, Juneau, Fairbanks and Anchorage. She is the Chairman of the Senate Energy and Natural Resources Committee and also serves on the Senate Appropriations Committee, where she is the Chairman of the Interior and Environment Subcommittee.  Senator Murkowski is a member of the Senate Health, Education, Labor and Pensions Committee – the first Alaskan to serve on that panel – and also is a senior member of the Senate Indian Affairs Committee. She earned a B.A. in economics from Georgetown University in 1980 and a law degree from Willamette University in 1985.  Prior to her appointment to the United States Senate, Senator Murkowski practiced commercial law in Anchorage and served three terms in the Alaska State House of Representatives.  She was elected to a full six-year U.S. Senate term in 2004, and was re-elected in 2010 in a historic write-in campaign, the first successful write-in effort to the Senate since 1954.",
+"point1": "Rights for Native Americans",
+"point2": "Emphasis on protecting our interest in the Arctic",
+"point3": "Balanced Budget Amendment"
 },
 {
 "last": "Lamb",
@@ -167,7 +175,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/john_mccain.jpg",
+"bio": "John McCain entered the Naval Academy in June of 1954. He served in the United States Navy until 1981. He was elected to the U.S. House of Representatives from Arizona in 1982 and elected to the United States Senate in 1986. He was the Republican Party’s nominee for president in the 2008 election. He currently serves as Chairman of the Senate Committee on Armed Services.",
+"point1": "2nd Amendment rights",
+"point2": "Reduction of agricultural regulations and government subsidies",
+"point3": "Tax code reform"
 },
 {
 "last": "Meluskey",
@@ -277,7 +289,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/john_boozman.jpg",
+"bio": "John Boozman, a successful businessman and life-long resident of Arkansas, was elected to the United States Senate in 2010, taking office in January of 2011. Raised in Fort Smith, John graduated from Northside High School and went on to play football for the University of Arkansas Razorbacks while completing his pre-optometry requirements. He graduated from the Southern College of Optometry in 1977 and entered private practice that same year co-founding a family business with his brother that would ultimately become a key provider of eye care to Northwest Arkansas.",
+"point1": "Repeal and replace Obamacare",
+"point2": "Balanced Budget Amendment",
+"point3": "Increase border security and no granting of amnesty to immigrants"
 },
 {
 "last": "Coleman",
@@ -340,16 +356,6 @@
 "image": ""
 },
 {
-"last": "Agbede",
-"name": "Akinyemi Agbede",
-"state": "California",
-"party": "Democrat",
-"isIncumbent": false,
-"isRunning": true,
-"isOpen": true,
-"image": ""
-},
-{
 "last": "Beitiks",
 "name": "Mikelis Beitkis",
 "state": "California",
@@ -360,14 +366,18 @@
 "image": ""
 },
 {
-"last": "Del Beccaro",
+"last": "Del-Beccaro",
 "name": "Tom Del Beccaro",
 "state": "California",
 "party": "Republican",
 "isIncumbent": false,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/tom-del-beccaro.jpg",
+"bio": "Tom Del Beccaro is the former Chairman of the California Republican Party and a nationally known advocate of conservative principles who has been involved in grassroots politics for decades. Prior to serving as state party Chairman, Tom served as Vice Chairman of the California GOP and as Chairman of the Contra Costa County Republican Party. While serving at the county level, Tom helped lead a district with one of the lowest turnout levels to being the best in the state. He also organized over 1,000 events in support of conservative candidates, organizations, and causes. Tom received his undergraduate degree from UC Berkeley and his law degree from Santa Clara University School of Law. He lives in the San Francisco Bay Area and remains a practicing attorney.",
+"point1": "Flat tax",
+"point2": "Importing water to help with the California drought",
+"point3": "Repeal of California's high speed rail bond"
 },
 {
 "last": "Estrada",
@@ -627,7 +637,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/michael-bennet.jpg",
+"bio": "Before his appointment to the Senate in 2009 and subsequent election to a full six year term in 2010, Michael served as Superintendent of Denver Public Schools where he led a bold and inclusive reform effort that improved student achievement, helped turn around failing schools, and brought a halt to a seemingly endless cycle of annual budget cuts. Michael earned his bachelor's degree with honors from Wesleyan University and his law degree from Yale Law School, where he was Editor-in-Chief of The Yale Law Journal. Michael married Susan Daggett, a successful natural resources lawyer, in 1997. Michael and Susan are the proud parents of three daughters: Caroline, Halina and Anne.",
+"point1": "Environmental conservation",
+"point2": "Simplify student financial aid process",
+"point3": "Renewable Energy"
 },
 {
 "last": "Blaha",
@@ -847,7 +861,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/richard_blumenthal.jpg",
+"bio": "Sworn in on January 5, 2011, Richard Blumenthal is serving his first term as a United States Senator from the State of Connecticut. From 1977 to 1981, Senator Blumenthal served as a U.S. Attorney for Connecticut, prosecuting drug trafficking, organized and white collar crime, civil rights violations, consumer fraud, and environmental pollution. He served in the Connecticut House of Representatives from 1984 to 1987, and the Connecticut State Senate from 1987 to 1990.  As a volunteer attorney for the NAACP Legal Defense Fund, Senator Blumenthal saved the life of an innocent, wrongly convicted death row inmate who came within hours of execution. Senator Blumenthal graduated from Harvard College (Phi Beta Kappa, Magna Cum Laude), and Yale Law School, where he was Editor-in-Chief of the Yale Law Journal. From 1970 to 1976 he served in the United States Marine Corps Reserves, and was honorably discharged with the rank of Sergeant. Senator Blumenthal lives in Connecticut with his wife, Cynthia, and their four children.",
+"point1": "Same sex marriage",
+"point2": "Reduction of Defense budget",
+"point3": "Pro-choice"
 },
 {
 "last": "Wolf",
@@ -987,7 +1005,11 @@
 "isIncumbent": false,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/gwen_graham.jpg",
+"bio": "Gwen’s path to Northwest Florida is a unique one. She was born in 1963 in Miami Lakes and began spending part of each year in Tallahassee when her father, Bob Graham, was elected to the Florida House of Representatives in 1966. Upon her father’s election as Governor in 1978, their family moved to the state capital year-round. Gwen graduated from Leon High School in 1980. After receiving a bachelor’s degree from the University of North Carolina, Gwen earned a law degree from American University in 1988.",
+"point1": "Preserve Medicare and Social Security",
+"point2": "Raising minimum wage",
+"point3": "Investing in education"
 },
 {
 "last": "Grayson",
@@ -1057,7 +1079,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/johnny_isakson.jpg",
+"bio": "Johnny Isakson is a businessman who has built a respected record of public service to the state of Georgia. As a business leader, Johnny served as president of Northside Realty for 20 years, as it grew to become the largest independent residential real estate brokerage company in the Southeast and one of the largest in America. As a public servant, Johnny served 17 years in the Georgia Legislature and two years as chairman of the Georgia Board of Education. Johnny then served three terms in the U.S. House and is now serving his second term in the U.S. Senate.",
+"point1": "2nd Amendment rights",
+"point2": "Addition of the Keystone XL pipeline",
+"point3": "Pro-life"
 },
 {
 "last": "Benedict",
@@ -1127,7 +1153,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/brian_schatz.jpg",
+"bio": "As Hawai‘i’s senior United States Senator, Brian serves on three Senate Committees essential to the future of Hawai‘i: Appropriations, Commerce, Science, and Transportation, and Indian Affairs. Senator Schatz is also one of just three Democrats on the Select Committee on Ethics. Senator Schatz was raised in Hawai‘i, and graduated from Pomona College in Claremont, California.  He is married to Linda Kwok Schatz, who is an architect. They have a son and daughter.",
+"point1": "Same-sex marriage",
+"point2": "Financial penalties for coal pollution",
+"point3": "Increase Social Security benefits"
 },
 {
 "last": "Hirono",
@@ -1147,7 +1177,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/mike_crapo.jpg",
+"bio": "As a lifelong Idahoan, Mike Crapo has learned that a willingness to listen makes for a more effective leader and lawmaker. Mike's commonsense approach and collaborative, creative problem-solving have enabled him to achieve lasting solutions to issues of importance to Idahoans and the nation. The start of the 114th Congress marked a move in senate seniority for Mike, now ranked 22nd in overall Senate seniority.",
+"point1": "No amnesty for immigrants",
+"point2": "Free market health care",
+"point3": "Tax code reform"
 },
 {
 "last": "Risch",
@@ -1177,7 +1211,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/mark_kirk.jpg",
+"bio": "Born in Champaign, Illinois, Senator Kirk graduated from Winnetka’s New Trier High School and attended Blackburn College and the Universidad Nacional Autónoma de México before earning a B.A. (cum laude) in history from Cornell University. Senator Kirk also earned a master’s degree from the London School of Economics and a law degree from Georgetown University, and served as an intelligence officer in the Navy Reserve from 1989 until 2013, when he retired with the rank of commander.",
+"point1": "Maintain alliance with Israel",
+"point2": "Balanced Budget Amendment",
+"point3": "Moratorium on new economic regulations"
 },
 {
 "last": "Marter",
@@ -1267,7 +1305,11 @@
 "isIncumbent": false,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/marlin_stutzman.jpg",
+"bio": "Before coming to Congress, Stutzman served in the Indiana House of Representatives from 2002-2008, and in the Indiana State Senate from 2008-2010.  When first elected at the age of twenty-six, he served as the youngest member of the Indiana legislature until 2006, and established his reputation early on as a staunch conservative.  With a solid track record of lower taxes, less regulation, and balanced budgets, Stutzman was awarded the “Small Business Champion of the Year” award in 2008 from the Indiana Chamber of Commerce.",
+"point1": "2nd Amendment rights",
+"point2": "Produce more oil domestically and invest in clean energy",
+"point3": "Pro-life"
 },
 {
 "last": "Young",
@@ -1307,7 +1349,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/chuck_grassley.jpg",
+"bio": "Grassley serves as Chairman of the Senate Committee on the Judiciary, where he works for a competitive marketplace with antitrust enforcement and tort reform, to reward innovation and invention with an updated patent system, and for legal immigration that will help America’s economy grow.  Grassley has led a campaign to open up the federal judiciary by allowing cameras in courtrooms, and he is unmatched in his legislative and oversight work to protect whistleblowers, both in and out of government, who speak up about wrongdoing for the public good.  Grassley is an advocate for victims of crime and a leader in the fight to keep illegal drugs out of the hands of young people.  He leads efforts to safeguard America’s freedom with effective anti-terrorism and domestic security policies.",
+"point1": "Federal incentives for moving children from foster to adoptive homes",
+"point2": "Increase enforcement of drug laws",
+"point3": "Opposition to amnesty for immigrants"
 },
 {
 "last": "Fiegen",
@@ -1377,7 +1423,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/jerry_moran.jpg",
+"bio": "Prior to his election to the Senate in November 2010, Moran served Kansans in the “Big First” Congressional district for seven terms in the U.S. House of Representatives, as well as eight years in the Kansas State Senate – spending the last two years as Majority Leader. As a senior member of the U.S. House Agriculture Committee, then-Congressman Moran worked with colleagues to craft legislation that allowed Kansas farms and ranches to remain viable in today’s competitive global marketplace, and participated in the implementation of two Farm Bills. Moran was also an active member of the House Transportation and Infrastructure Committee, as well as the House Veterans’ Affairs Committee where he served as chairman of the Health Subcommittee.",
+"point1": "Cut government spending",
+"point2": "Investing in medical research",
+"point3": "Adoption awareness"
 },
 {
 "last": "Zahnter",
@@ -1417,7 +1467,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/rand_paul.jpg",
+"bio": "Rand is the third of five children born to Carol and Ron Paul. He grew up in Lake Jackson, Texas and attended Baylor University. He graduated from Duke Medical School in 1988. Dr. Paul completed a general surgery internship at Georgia Baptist Medical Center in Atlanta and completed his residency in ophthalmology at Duke University Medical Center. Upon completion of his training in 1993, Rand and Kelley moved to Bowling Green to start their family and begin his ophthalmology practice.",
+"point1": "Balanced Budget Amendment",
+"point2": "Term limits",
+"point3": "Audit the Federal Reserve"
 },
 {
 "last": "Gould",
@@ -1537,7 +1591,11 @@
 "isIncumbent": false,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/scott_angelle.jpg",
+"bio": "Scott A. Angelle, native of Breaux Bridge, one of nine children, from a middle class family, is a home grown product of Louisiana. Scott learned at an early age that life begins at conception, that our communities are a reflection of our own individual efforts, the value of hard work and team work, and how to fight for every inch along the way.  He is an honor graduate of St. Martin Parish Public School System, and a Cum Laude graduate of the University of Louisiana-Lafayette with a degree in Petroleum Land Management. His business career has included strategic planning, risk management, and petroleum land management.",
+"point1": "2nd Amendment rights",
+"point2": "Pro-life",
+"point3": "Against same-sex marriage"
 },
 {
 "last": "Boustany",
@@ -1657,7 +1715,11 @@
 "isIncumbent": false,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/donna_edwards.jpg",
+"bio": "Congresswoman Donna F. Edwards represents Maryland’s 4th Congressional District, comprising portions of Prince George’s and Anne Arundel Counties.  She was sworn in after a special election to become a member of the U.S. House of Representatives in the 110th Congress in June 2008, becoming the first African American woman to represent Maryland in Congress. ",
+"point1": "Strengthen Social Security and welfare",
+"point2": "Domestic violence awareness",
+"point3": "Women's rights"
 },
 {
 "last": "Jaffe",
@@ -1947,7 +2009,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/roy_blunt.jpg",
+"bio": "Roy was the first Republican elected Missouri Secretary of State in over fifty years. Again, he deployed technology to protect Missouri investors from fraud and, as the state’s chief elections official, rooted out fraud in state elections, insisting on fairness regardless of political party. Four years later, Roy was overwhelmingly reelected to a second term as Secretary of State.",
+"point1": "Repeal Obamacare",
+"point2": "Against government regulation in agriculture",
+"point3": "2nd Amendment rights"
 },
 {
 "last": "Batsche",
@@ -2177,7 +2243,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/kelly_ayotte.jpg",
+"bio": "Prior to her election to the Senate, Kelly served as the chief of the state's Homicide Unit and Deputy Attorney General before being named in 2004 as New Hampshire's first female Attorney General. First appointed to that position by a Republican governor, she was twice reappointed by a Democratic governor. During her time as Attorney General, she successfully led efforts to secure the first capital murder convictions in New Hampshire in over 60 years - for which the Union Leader newspaper named Kelly 'Citizen of the Year' in 2008.",
+"point1": "Repeal Obamacare",
+"point2": "Fighting human trafficking",
+"point3": "Balanced Budget Amendment"
 },
 {
 "last": "O'Brien",
@@ -2257,7 +2327,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/chuck_schumer.jpg",
+"bio": "Before his election to the U.S. Senate, Schumer served in the U.S. House of Representatives from 1981 to 1999, representing New York's 16th congressional district, later redistricted to the 10th congressional district in 1983 and to the 9th congressional district in 1993. A native of Brooklyn and graduate of Harvard College and Harvard Law School, he was a three-term member of the New York State Assembly, serving from 1975 to 1980.",
+"point1": "Pro-choice",
+"point2": "Same-sex marriage",
+"point3": "Gun control laws"
 },
 {
 "last": "Emanuele",
@@ -2327,7 +2401,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/richard_burr.jpg",
+"bio": "First elected to the U.S. House of Representatives in 1994, Richard served five terms in the House and is currently serving North Carolina in his second term in the U.S. Senate. He is a vocal advocate for our men and women in the military and their families, and for the growing population of veterans across North Carolina.",
+"point1": "Simplify tax code",
+"point2": "Repeal Obamacare",
+"point3": "Military Sex Offender Reporting Act"
 },
 {
 "last": "Brannon",
@@ -2437,7 +2515,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/john_hoeven.jpg",
+"bio": "Prior to his election to the Senate, Senator Hoeven served as governor of North Dakota for a decade.  Under his leadership, the state expanded and diversified its economy and gained thousands of new jobs.  North Dakota’s wages and personal income today continue to grow faster than the national average, and in recent years the state has led the nation in export growth.  North Dakota regularly balances its budget, has set aside more strong reserves for the future, cut taxes, and invested in priorities like education, law enforcement and infrastructure.",
+"point1": "Repeal Obamacare",
+"point2": "Anti Iran Deal",
+"point3": "Infrastructure development and maintenance"
 },
 {
 "last": "Marquette",
@@ -2500,14 +2582,18 @@
 "image": ""
 },
 {
-"last": "Sittenfield",
-"name": "P.G. Sittenfield",
+"last": "Sittenfeld",
+"name": "P.G. Sittenfeld",
 "state": "Ohio",
 "party": "Democrat",
 "isIncumbent": false,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/sittenfeld.jpg",
+"bio": "P.G. Sittenfeld has been called a “rising star” by the Cleveland Plain Dealer, Columbus Dispatch, and NBC political analyst Chuck Todd. During his tenure on the Cincinnati City Council, his innovative ideas and cutting-edge programs have been lauded by numerous sources at the state and national levels. In 2013, P.G. was elected to his second term on the City Council—finishing first in the citywide election and winning by the largest percentage and margin of victory in modern Cincinnati history.",
+"point1": "Reduce student debt",
+"point2": "Gun control laws",
+"point3": "Protecting the environment"
 },
 {
 "last": "Strickland",
@@ -2567,7 +2653,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/james_lankford.jpg",
+"bio": "After serving four years in the U.S. House of Representatives, James was elected to the U.S. Senate on November 4, 2014, to finish the remaining two years of retiring Senator Tom Coburn's term, which will end January 2017.",
+"point1": "Lessen federal control on education",
+"point2": "Placing the Keystone XL pipeline",
+"point3": "Anti Iran Deal"
 },
 {
 "last": "Wyden",
@@ -2577,7 +2667,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/ron_wyden.jpg",
+"bio": "Wyden began college at the University of California-Santa Barbara where he won a basketball scholarship and played in Division I competition for two seasons before transferring to Stanford University where he completed his Bachelors degree with distinction.  He earned his law degree from the University of Oregon School of Law in 1974, after which he taught gerontology and co-founded the Oregon chapter of the Gray Panthers, an advocacy group for the elderly.  He also served as the director of Oregon Legal Services for the Elderly from 1977 to 1979 and was a member of the Oregon State Board of Examiners of Nursing Home Administrators during that same period. He served in the U.S. House of Representatives from 1981 until his election to the U.S. Senate.",
+"point1": "Laws that will tell students what they can expect to make after graduation",
+"point2": "Cease selling arms to the Kingdom of Bahrain",
+"point3": "Increased funding for biofuel development"
 },
 {
 "last": "Stine",
@@ -2657,7 +2751,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/pat_toomey.jpg",
+"bio": "Sen. Toomey previously served in Congress as a member of the House of Representatives from Pennsylvania's 15 Congressional District, where he championed economic growth and fiscal discipline. Honoring his pledge to limit himself to three terms, he did not seek re-election to the House in 2004.",
+"point1": "Less dependence on foreign oil",
+"point2": "Local control over elementary and secondary schools",
+"point3": "Repeal Obamacare"
 },
 {
 "last": "Fetterman",
@@ -2747,7 +2845,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/tim_scott.jpg",
+"bio": "Prior to joining the Senate, Tim built his business from the ground up, and as the owner of Tim Scott Allstate was named the South Carolina Agency Owner of the Year. He was first elected to public office in 1995, and served at the local and state level until his election to Congress in 2010. Tim spent his first summer in the U.S. House of Representatives fighting to save 1,100 South Carolina jobs from the intrusive and overreaching actions of the NLRB. The NLRB eventually dropped their case under constant pressure from Scott and his colleagues – a victory for limited government and the free market.",
+"point1": "Stop Common Core",
+"point2": "Pro-life",
+"point3": "End Death Tax"
 },
 {
 "last": "Armstrong",
@@ -2787,7 +2889,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/john_thune.jpg",
+"bio": "John Thune grew up in Murdo, South Dakota. His interest in politics was sparked at a young age after making five of six free throws during a freshman high school basketball game. He was later greeted by a spectator who said, “I noticed you missed one.” That spectator happened to be well-known sports enthusiast and South Dakota U.S. Representative Jim Abdnor. The introduction was the start of a friendship that ignited John’s career in public service.",
+"point1": "Block the 'Waters of the United States' rule",
+"point2": "2nd Amendment rights",
+"point3": "Repeal Obamacare"
 },
 {
 "last": "Rounds",
@@ -2857,7 +2963,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/mike_lee.jpg",
+"bio": "Lee graduated from Brigham Young University with a Bachelor of Science in Political Science, and served as BYU's Student Body President in his senior year. He graduated from BYU's Law School in 1997 and went on to serve as law clerk to Judge Dee Benson of the U.S. District Court for the District of Utah, and then with future Supreme Court Justice Judge Samuel A. Alito, Jr. on the U.S. Court of Appeals for the Third Circuit.",
+"point1": "Transportation infrastructure",
+"point2": "2nd Amendment rights",
+"point3": "Tax code reform"
 },
 {
 "last": "Swinton",
@@ -2877,7 +2987,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/patrick_leahy.jpg",
+"bio": "Patrick Leahy was elected to the United States Senate in 1974 and remains the only Democrat elected to this office from Vermont.  At 34, he was the youngest U.S. Senator ever to be elected from the Green Mountain State.",
+"point1": "Renewable energy development",
+"point2": "Increase in aid to poor countries",
+"point3": "Protect Social Security"
 },
 {
 "last": "Milne",
@@ -2947,7 +3061,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/patty_murray.jpg",
+"bio": "In addition to being the first female Senator from Washington state, Patty served as the first female Chair of the Senate Veterans’ Affairs Committee during the 112th Congress and served as the first female Chair of the Senate Budget Committee during the 113th Congress. She is currently Ranking Member of the Senate Health, Education, Labor, and Pensions Committee.",
+"point1": "Expand alternative energy industry",
+"point2": "Affordable higher education",
+"point3": "Expand access to healthcare"
 },
 {
 "last": "Goberman",
@@ -3027,7 +3145,11 @@
 "isIncumbent": true,
 "isRunning": true,
 "isOpen": true,
-"image": ""
+"image": "../img/ron_johnson.jpg",
+"bio": "Ron is Chairman of the Homeland Security and Governmental Affairs Committee, and also serves on the Budget, Foreign Relations, and Commerce, Science and Transportation committees.  He resides in Oshkosh, Wisconsin with his wife Jane. They have three children and two grandchildren.",
+"point1": "Repeal Obamacare",
+"point2": "Federal hiring freeze",
+"point3": "Reduce dependence on foreign oil"
 },
 {
 "last": "Schiess",

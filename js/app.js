@@ -158,11 +158,19 @@ app.controller('BaseController', ['$http', function($http) {
             this.candInfo += " (Incumbent) ";
           }
           this.candInfo += " (" + this.senators[j].party + ")</h3>";
+          this.candInfo += "<img src='" + this.senators[j].image + "'>"
           if(!this.senators[j].isOpen){
             this.candInfo += "<p>Seat not open in 2016</p>";
           }
           if(this.senators[j].isOpen && !this.senators[j].isRunning){
             this.candInfo += "<p>Retiring in 2016</p>";
+          }
+          if(this.senators[j].bio !== undefined){
+            this.candInfo += "<p>" +  this.senators[j].bio + "</p>";
+            this.candInfo += "<h4>Platform Points:</h4>";
+            this.candInfo += "<ul><li>" + this.senators[j].point1 + "</li>" + "<li>" + this.senators[j].point2 + "</li>" + "<li>" + this.senators[j].point3 + "</li></ul>";
+          }else if(this.senators[j].isRunning){
+            this.candInfo += "<p>Running for senate in " + this.senators[j].state + " in 2016</p>"
           }
           this.candInfo +="</div>";
         }
@@ -188,9 +196,17 @@ this.showCandInfo = function(cand){
     this.candInfo += "<h4>Seat not open in 2016</h4>";
   }
   if(cand.isOpen && cand.isRunning){
+    this.candInfo += "<img src='" + cand.image + "'>"
+    if(cand.bio !== undefined){
+      this.candInfo += "<p>" +  cand.bio + "</p>";
+      this.candInfo += "<h4>Platform Points:</h4>";
+      this.candInfo += "<ul><li>" + cand.point1 + "</li>" + "<li>" + cand.point2 + "</li>" + "<li>" + cand.point3 + "</li></ul>";
+    }else if(cand.isRunning){
+      this.candInfo += "<p>Running for senate in " + cand.state + " in 2016</p>"
+    }
     this.candInfo += "<h4>Running against:</h4>"
     for(j in this.senators){
-      if(cand.state == this.senators[j].state){
+      if(cand.state == this.senators[j].state && this.senators[j].isRunning && this.senators[j].name !== cand.name){
         this.candInfo += "<p>" + this.senators[j].name + "</p>";
       }
     }
