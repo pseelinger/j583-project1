@@ -155,3 +155,7 @@ background-color: #b20000;
 .purple{
   color: #551A8B;
 }
+.dropdown{
+  display: inline-block;
+  float: none;
+}

@@ -44,6 +44,7 @@ app.directive('tabset', function() {
   }
 }
 });
+//Have to make an array of states so they can be used in ng-repeat. Repitition of the name is so they can have id's attached to them if they are multi-word state names
 app.controller('BaseController', ['$http', function($http) {
     this.states= [
     ["Alabama", "alabama"],
@@ -159,12 +160,15 @@ app.controller('BaseController', ['$http', function($http) {
           }
           this.candInfo += " (" + this.senators[j].party + ")</h3>";
           this.candInfo += "<img src='" + this.senators[j].image + "'>"
+          //check if the seat is open
           if(!this.senators[j].isOpen){
             this.candInfo += "<p class='filler-text'>Seat not open in 2016</p>";
           }
+          //check if the senator is retiring
           if(this.senators[j].isOpen && !this.senators[j].isRunning){
             this.candInfo += "<p class='filler-text'>Retiring in 2016</p>";
           }
+          //check if the senator has more than just the basic data attached to him
           if(this.senators[j].bio !== undefined){
             this.candInfo += "<p>" +  this.senators[j].bio + "</p>";
             this.candInfo += "<h4>Platform Points:</h4>";
@@ -192,9 +196,11 @@ this.showCandInfo = function(cand){
     this.candInfo += " (Incumbent) ";
   }
   this.candInfo += " (" + cand.party + ")</h3>";
+  //check if the seat is open
   if(!cand.isOpen){
     this.candInfo += "<h4 class='filler-text'>Seat not open in 2016</h4>";
   }
+  //check if the senator is running
   if(cand.isOpen && cand.isRunning){
     this.candInfo += "<img src='" + cand.image + "'>"
     if(cand.bio !== undefined){
